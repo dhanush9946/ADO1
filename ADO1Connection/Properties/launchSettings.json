@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ADO1Connection": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
