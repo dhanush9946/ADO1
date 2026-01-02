@@ -16,7 +16,12 @@ namespace ADO1Connection
             da.Fill(dt);
 
             DataView dv = new DataView(dt);
+            //Sorting........
             dv.Sort = "Age DESC";
+
+
+            //Filtering.........
+            dv.RowFilter = "Age >20";
             
             foreach(DataRowView row in dv)
             {
